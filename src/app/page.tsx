@@ -25,7 +25,16 @@ export default function Home() {
       headingFontWeight="bold"
     >
       <div id="nav" data-section="nav">
-        <NavbarStyleApple />
+        <NavbarStyleApple
+          navItems={[
+            { label: "Hero", href: "hero" },
+            { label: "Blog", href: "blog" },
+            { label: "About", href: "about" },
+            { label: "Menu", href: "menu" },
+            { label: "Testimonials", href: "testimonials" },
+            { label: "Contact", href: "contact" }
+          ]}
+        />
       </div>
       <div id="hero" data-section="hero">
         <HeroBillboardRotatedCarousel />
