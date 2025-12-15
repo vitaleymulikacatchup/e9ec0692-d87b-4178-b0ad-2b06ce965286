@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -8,7 +8,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Calendar, Chef, Heart, Leaf, Sparkles } from "lucide-react";
+import { Calendar, ChefHat, Heart, Leaf, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -103,7 +103,7 @@ export default function LandingPage() {
             {
               title: "Expert Chefs",
               description: "Our culinary team brings decades of experience and passion to the kitchen",
-              icon: Chef
+              icon: ChefHat
             },
             {
               title: "Warm Hospitality",
