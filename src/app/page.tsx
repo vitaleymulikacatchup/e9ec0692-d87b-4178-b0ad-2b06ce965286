@@ -1,6 +1,6 @@
 "use client";
 
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleApple";
 import HeroBillboardRotatedCarousel from "@/components/sections/hero/HeroBillboardRotatedCarousel";
 import BlogCardOne from "@/components/sections/blog/BlogCardOne";
@@ -24,7 +24,9 @@ export default function Home() {
       secondaryButtonStyle="glass"
       headingFontWeight="bold"
     >
-      <NavbarStyleApple />
+      <div id="nav" data-section="nav">
+        <NavbarStyleApple />
+      </div>
       <div id="hero" data-section="hero">
         <HeroBillboardRotatedCarousel />
       </div>
