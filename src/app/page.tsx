@@ -37,30 +37,7 @@ export default function Home() {
         />
       </div>
       <div id="hero" data-section="hero">
-        <HeroBillboardRotatedCarousel
-          title="Welcome to Our Platform"
-          description="Experience the future of digital innovation with our cutting-edge solutions"
-          carouselItems={[
-            {
-              title: "Innovation First",
-              description: "Leading the way in technological advancement",
-              imageSrc: "/images/noise.webp",
-              imageAlt: "Innovation concept"
-            },
-            {
-              title: "Quality Assured",
-              description: "Delivering excellence in every project we undertake",
-              imageSrc: "/images/noise.webp",
-              imageAlt: "Quality assurance"
-            },
-            {
-              title: "Customer Focus",
-              description: "Your success is our primary goal and commitment",
-              imageSrc: "/images/noise.webp",
-              imageAlt: "Customer satisfaction"
-            }
-          ]}
-        />
+        <HeroBillboardRotatedCarousel />
       </div>
       <div id="blog" data-section="blog">
         <BlogCardOne
